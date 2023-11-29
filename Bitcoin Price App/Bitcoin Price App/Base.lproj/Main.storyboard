@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7dK-3D-J3l">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="4cg-hs-A7d">
+            <objects>
+                <navigationController id="7dK-3D-J3l" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hPt-az-Hjv">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="YBB-pw-ba9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vV6-75-Yl1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-766" y="23"/>
+        </scene>
+        <!--Bitcoin Price App-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bitcoin_Price_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btc" translatesAutoresizingMaskIntoConstraints="NO" id="L7O-XV-lux">
+                                <rect key="frame" x="50" y="279.66666666666669" width="293" height="293.00000000000006"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="L7O-XV-lux" secondAttribute="height" multiplier="1:1" id="002-vc-AOh"/>
+                                    <constraint firstAttribute="width" secondItem="L7O-XV-lux" secondAttribute="height" multiplier="1:1" id="jcg-Tz-3dc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$6,345.45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="M47-Ih-e2D">
+                                <rect key="frame" x="10" y="175.33333333333334" width="373" height="83.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="€ 23,3434.33" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="wMM-6m-yPz">
+                                <rect key="frame" x="85.666666666666671" y="605" width="221.66666666666663" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="¥ 123543" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="uhv-Fa-RMH">
+                                <rect key="frame" x="119" y="674" width="155.66666666666663" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="L7O-XV-lux" firstAttribute="top" secondItem="M47-Ih-e2D" secondAttribute="bottom" constant="20.666666666666686" id="2P7-T0-zgo"/>
+                            <constraint firstItem="L7O-XV-lux" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="3wY-vX-VRg"/>
+                            <constraint firstItem="uhv-Fa-RMH" firstAttribute="top" secondItem="wMM-6m-yPz" secondAttribute="bottom" constant="24" id="8yF-Fj-rAr"/>
+                            <constraint firstItem="uhv-Fa-RMH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E2r-i3-yDO"/>
+                            <constraint firstItem="M47-Ih-e2D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="E5t-G1-arB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="L7O-XV-lux" secondAttribute="trailing" constant="50" id="TIP-GH-AEw"/>
+                            <constraint firstItem="L7O-XV-lux" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cvc-ne-0RV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M47-Ih-e2D" secondAttribute="trailing" constant="10" id="fKA-Wv-AYf"/>
+                            <constraint firstItem="wMM-6m-yPz" firstAttribute="top" secondItem="L7O-XV-lux" secondAttribute="bottom" constant="32.333333333333258" id="oY3-i9-DAp"/>
+                            <constraint firstItem="wMM-6m-yPz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s4Z-2C-Zxx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bitcoin Price App" id="zg1-ih-TC2">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="jmT-lW-MVT">
+                            <connections>
+                                <action selector="refreshTapped:" destination="BYZ-38-t0r" id="THL-GP-QwA"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="euLabel" destination="wMM-6m-yPz" id="0p8-2J-qSH"/>
+                        <outlet property="usdLabel" destination="M47-Ih-e2D" id="AEg-aM-qN8"/>
+                        <outlet property="yenLabel" destination="uhv-Fa-RMH" id="UMO-oz-4JK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293.89312977099235" y="22.535211267605636"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btc" width="128" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
