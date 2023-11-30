@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		281F54202B16C2E600CEFDD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F541F2B16C2E600CEFDD3 /* AppDelegate.swift */; };
 		281F54222B16C2E600CEFDD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F54212B16C2E600CEFDD3 /* SceneDelegate.swift */; };
-		281F54242B16C2E600CEFDD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F54232B16C2E600CEFDD3 /* ViewController.swift */; };
 		281F54272B16C2E600CEFDD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281F54252B16C2E600CEFDD3 /* Main.storyboard */; };
 		281F54292B16C2E700CEFDD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281F54282B16C2E700CEFDD3 /* Assets.xcassets */; };
 		281F542C2B16C2E700CEFDD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281F542A2B16C2E700CEFDD3 /* LaunchScreen.storyboard */; };
+		281F54342B16C5CB00CEFDD3 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F54332B16C5CB00CEFDD3 /* FavoritesViewController.swift */; };
+		281F54362B16C5E800CEFDD3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F54352B16C5E800CEFDD3 /* SearchViewController.swift */; };
+		281F54382B16C60700CEFDD3 /* RecentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F54372B16C60700CEFDD3 /* RecentsViewController.swift */; };
+		281F543A2B16C61F00CEFDD3 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F54392B16C61F00CEFDD3 /* ContactsViewController.swift */; };
+		281F543C2B16CA7C00CEFDD3 /* FavoriteOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F543B2B16CA7C00CEFDD3 /* FavoriteOneViewController.swift */; };
+		281F543E2B16CAB200CEFDD3 /* FavoritesTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F543D2B16CAB200CEFDD3 /* FavoritesTwoViewController.swift */; };
+		281F54402B16CDE900CEFDD3 /* RecentsOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F543F2B16CDE900CEFDD3 /* RecentsOneViewController.swift */; };
+		281F54422B16CE1400CEFDD3 /* RecentsTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F54412B16CE1400CEFDD3 /* RecentsTwoViewController.swift */; };
+		281F54442B16CE3800CEFDD3 /* SearchOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F54432B16CE3800CEFDD3 /* SearchOneViewController.swift */; };
+		281F54462B16CE5600CEFDD3 /* SearchTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F54452B16CE5600CEFDD3 /* SearchTwoViewController.swift */; };
+		281F54482B16CE7500CEFDD3 /* ContactsOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F54472B16CE7500CEFDD3 /* ContactsOneViewController.swift */; };
+		281F544A2B16CE8A00CEFDD3 /* ContactsTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281F54492B16CE8A00CEFDD3 /* ContactsTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		281F541C2B16C2E600CEFDD3 /* Tab Bar and Navigation Controller Demo 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tab Bar and Navigation Controller Demo 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		281F541F2B16C2E600CEFDD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		281F54212B16C2E600CEFDD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		281F54232B16C2E600CEFDD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		281F54262B16C2E600CEFDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		281F54282B16C2E700CEFDD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		281F542B2B16C2E700CEFDD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		281F542D2B16C2E700CEFDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281F54332B16C5CB00CEFDD3 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		281F54352B16C5E800CEFDD3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		281F54372B16C60700CEFDD3 /* RecentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsViewController.swift; sourceTree = "<group>"; };
+		281F54392B16C61F00CEFDD3 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		281F543B2B16CA7C00CEFDD3 /* FavoriteOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteOneViewController.swift; sourceTree = "<group>"; };
+		281F543D2B16CAB200CEFDD3 /* FavoritesTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTwoViewController.swift; sourceTree = "<group>"; };
+		281F543F2B16CDE900CEFDD3 /* RecentsOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsOneViewController.swift; sourceTree = "<group>"; };
+		281F54412B16CE1400CEFDD3 /* RecentsTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsTwoViewController.swift; sourceTree = "<group>"; };
+		281F54432B16CE3800CEFDD3 /* SearchOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchOneViewController.swift; sourceTree = "<group>"; };
+		281F54452B16CE5600CEFDD3 /* SearchTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTwoViewController.swift; sourceTree = "<group>"; };
+		281F54472B16CE7500CEFDD3 /* ContactsOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsOneViewController.swift; sourceTree = "<group>"; };
+		281F54492B16CE8A00CEFDD3 /* ContactsTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +78,24 @@
 		281F541E2B16C2E600CEFDD3 /* Tab Bar and Navigation Controller Demo 2 */ = {
 			isa = PBXGroup;
 			children = (
+				281F543B2B16CA7C00CEFDD3 /* FavoriteOneViewController.swift */,
 				281F541F2B16C2E600CEFDD3 /* AppDelegate.swift */,
 				281F54212B16C2E600CEFDD3 /* SceneDelegate.swift */,
-				281F54232B16C2E600CEFDD3 /* ViewController.swift */,
 				281F54252B16C2E600CEFDD3 /* Main.storyboard */,
+				281F54492B16CE8A00CEFDD3 /* ContactsTwoViewController.swift */,
+				281F54472B16CE7500CEFDD3 /* ContactsOneViewController.swift */,
+				281F54452B16CE5600CEFDD3 /* SearchTwoViewController.swift */,
+				281F54332B16C5CB00CEFDD3 /* FavoritesViewController.swift */,
+				281F54352B16C5E800CEFDD3 /* SearchViewController.swift */,
+				281F54372B16C60700CEFDD3 /* RecentsViewController.swift */,
+				281F54392B16C61F00CEFDD3 /* ContactsViewController.swift */,
 				281F54282B16C2E700CEFDD3 /* Assets.xcassets */,
 				281F542A2B16C2E700CEFDD3 /* LaunchScreen.storyboard */,
 				281F542D2B16C2E700CEFDD3 /* Info.plist */,
+				281F543D2B16CAB200CEFDD3 /* FavoritesTwoViewController.swift */,
+				281F543F2B16CDE900CEFDD3 /* RecentsOneViewController.swift */,
+				281F54412B16CE1400CEFDD3 /* RecentsTwoViewController.swift */,
+				281F54432B16CE3800CEFDD3 /* SearchOneViewController.swift */,
 			);
 			path = "Tab Bar and Navigation Controller Demo 2";
 			sourceTree = "<group>";
@@ -138,9 +171,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				281F54242B16C2E600CEFDD3 /* ViewController.swift in Sources */,
+				281F54422B16CE1400CEFDD3 /* RecentsTwoViewController.swift in Sources */,
+				281F54382B16C60700CEFDD3 /* RecentsViewController.swift in Sources */,
 				281F54202B16C2E600CEFDD3 /* AppDelegate.swift in Sources */,
+				281F54342B16C5CB00CEFDD3 /* FavoritesViewController.swift in Sources */,
+				281F544A2B16CE8A00CEFDD3 /* ContactsTwoViewController.swift in Sources */,
+				281F54482B16CE7500CEFDD3 /* ContactsOneViewController.swift in Sources */,
+				281F54442B16CE3800CEFDD3 /* SearchOneViewController.swift in Sources */,
+				281F543C2B16CA7C00CEFDD3 /* FavoriteOneViewController.swift in Sources */,
+				281F54362B16C5E800CEFDD3 /* SearchViewController.swift in Sources */,
 				281F54222B16C2E600CEFDD3 /* SceneDelegate.swift in Sources */,
+				281F543E2B16CAB200CEFDD3 /* FavoritesTwoViewController.swift in Sources */,
+				281F54402B16CDE900CEFDD3 /* RecentsOneViewController.swift in Sources */,
+				281F543A2B16C61F00CEFDD3 /* ContactsViewController.swift in Sources */,
+				281F54462B16CE5600CEFDD3 /* SearchTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
